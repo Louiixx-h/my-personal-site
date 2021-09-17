@@ -1,0 +1,25 @@
+{
+  "name": "luis-henrique",
+  "version": "1.0.0",
+  "description": "Portfólio pessoal dos meus projetos e conhecimentos.",
+  "main": "./src/code/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Louiixx-h/site-pessoal.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Luis Henrique da Silva Moreira",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Louiixx-h/site-pessoal/issues"
+  },
+  "homepage": "https://github.com/Louiixx-h/site-pessoal#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
