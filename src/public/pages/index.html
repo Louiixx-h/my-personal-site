@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Henrique</title>
+    <link rel="stylesheet" type="text/css" href="../styles/reset.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../styles/landing_page.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../styles/components_template.css" media="screen" />
+    <script defer>
+        const $buttonDownloadCV = document.querySelector('#download-cv')
+        $buttonDownloadCV.addEventListener('click', () => {
+            alert('Download')
+        }, false)
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-container">
+                <p class="logo">Portfólio</p>
+            </div>
+            <nav class="navbar">
+                <a href="#article-about-me">
+                    Sobre mim
+                </a>
+                <a href="#projects">
+                    Projetos
+                </a>
+                <a href="">
+                    Créditos
+                </a>
+            </nav>
+        </div>
+    </header>
+    <article class="presentation-container">
+        <section class="background-container">
+            <img class="image" src="../me.jpeg">
+            <div class="presentation">
+                <p>
+                    Olá eu sou o Luis!<br>
+                    <strong>Desenvolvedor Frontend Android nativo & Websites.</strong>
+                </p>
+                <div class="buttons">
+                    <a href="../files/curriculo.pdf" download="curriculo.pdf">
+                        <Button id="download-cv">Download CV</Button>
+                    </a>
+                    <a class="item" href="https:web.whatsapp.com/send?phone=5561991864880" target="_blank">
+                        <Button id="enter-to-contact">Entrar em contato</Button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </article>
+    <div class="divider">
+        <h2>Sobre mim</h2>
+    </div>
+    <article id="article-about-me">
+        <section class="section-about-me">
+            <p>
+                Sou desenvolvedor de software, tenho cerca de 3 anos de experiência com programação. 
+                Trabalho com Kotlin e Java para desenvolvimento com o Android Studio e também trabalho com HTML, CSS e 
+                Javascript para o desenvolvimento de Websites. Tenho experiências profissionais com arquiteturas MVVM e 
+                MVP além de boas práticas como SOLID e Clean Code. Procuro me recolocar no mercado de trabalho de forma remota.
+            </p>
+        </section>
+
+        <ul class="contacts">
+            <li>
+                <a class="item" href="https:web.whatsapp.com/send?phone=5561991864880" target="_blank">
+                    <img class="image-contact" src="../images/whatsapp.png" alt="eu">
+                    <p>Whatsapp</p>
+                </a>
+            </li>
+            <li>
+                <a class="item" href="mailto:louix.sm@gmail.com?subject=Hello" target="_blank">
+                    <img class="image-contact email" src="../images/email.png" alt="eu">
+                    <p>Email</p>
+                </a>
+            </li>
+            <li>
+                <a class="item" href="https://www.instagram.com/louis.henrik/" target="_blank">
+                    <img class="image-contact" src="../images/instagram.png" alt="eu">
+                    <p>Instagram</p>
+                </a>
+            </li>
+            <li>
+                <a class="item" href="https://www.linkedin.com/in/luishenr-m/" target="_blank">
+                    <img class="image-contact" src="../images/linkedin.png" alt="eu">
+                    <p>Linkedin</p>
+                </a>
+            </li>
+            <li>
+                <a class="item" href="https://github.com/Louiixx-h" target="_blank">
+                    <img class="image-contact" src="../images/github.png" alt="eu">
+                    <p>Github</p>
+                </a>
+            </li>
+        </ul>
+    </article>
+</body>
+
+</html>
