@@ -149,3 +149,67 @@
     width: 4.4rem;
     margin-bottom: 1rem;
 }
+
+@media (max-width: 1024px) {
+    .contacts {
+        width: 60%;
+    }
+    
+    .header-container {
+        margin: 0 2rem 0 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .background-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+            "me"
+            "img";
+    }
+
+    .background-container .image {
+        justify-self: center;
+    }
+
+    .section-about-me p {
+        width: 60%;
+    }
+}
+
+@media (max-width: 425px) {
+    .header-container {
+        text-align: center;
+    }
+
+    .logo-container {
+        width: 100%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .section-about-me p {
+        width: 80%;
+    }
+
+    .contacts {
+        width: 90%;
+    }
+}
+
+@media (max-width: 320px) {
+    .presentation p {
+        font-size: 3.5rem;
+    }
+
+    .image-contact {
+        width: 3.8rem;
+    }
+
+    .background-container .image {
+        width: 15rem;
+    }
+}
