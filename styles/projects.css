@@ -1,0 +1,29 @@
+#projects {
+    width: 60%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    margin: 1rem 0;
+    padding: 1rem;
+
+    border-radius: 0.2rem;
+    background-color: #313131;
+    text-align: center;
+}
+
+.project-item img {
+    width: 30rem;
+    height: 15rem;
+}
+
+.project-item h2 {
+    margin-top: 0.5rem;
+    font-size: 3rem;
+    color: #fff;
+}
