@@ -36,3 +36,16 @@ button:hover {
     cursor: pointer;
     filter: brightness(0.7);
 }
+
+.divider {
+    width: 100%;    
+    margin-top: 8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.divider h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}

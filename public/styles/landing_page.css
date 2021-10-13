@@ -1,128 +1,7 @@
-.header {
-    width: 100%;
-    height: 6rem;
-    background-color: #222;
-}
-
-.header-container {
-    width: 100%;
-    max-width: 980px;
-    height: 100%;
+main {
+    width: 70%;
+    max-width: 1440px;
     margin: auto;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.logo {
-    font-size: 3rem;
-    font-weight: 600;
-}
-
-.navbar {
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.navbar a {
-    flex: 1;
-    
-    font-size: 1.6rem;
-    padding: 0.5rem;
-    text-align: center;
-    border-radius: 0.5rem;
-    transition: 0.3s;
-}
-
-.navbar a:not(last-child) {
-    margin-right: 0.5rem;
-}
-
-.navbar a:hover {
-    filter: brightness(0.7);
-}
-
-.presentation-container {
-    width: 100%;
-}
-
-.background-container {
-    width: 90%;
-    height: 50rem;
-    margin: auto;
-    
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas: "me img";
-}
-
-.background-container .image {
-    grid-area: me;
-    align-self: center;
-    justify-self: end;
-    
-    width: 20rem;
-}
-
-.presentation {
-    grid-area: img;  
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.presentation p {
-    color: #fff;
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 700;
-}
-
-.presentation p strong {
-    color: #828282;
-    text-align: center;
-    font-weight: 400;
-    font-size: 1.8rem;
-    line-height: 3.2rem;
-}
-
-.buttons {
-    margin-top: 1rem;
-}
-
-#download-cv {
-    margin-right: 0.5rem;
-    background-color: #ff4700;
-    color: #fff;
-}
-
-.divider {
-    width: 100%;    
-    margin-top: 8rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    text-align: center;
-}
-
-.divider h2 {
-    font-size: 2.8rem;
-    font-weight: 700;
-}
-
-.section-about-me p {
-    width: 40%;
-    margin: auto;
-
-    color: #828282;
-    text-align: center;
-    font-weight: 400;
-    font-size: 1.8rem;
-    line-height: 3.2rem;
 }
 
 .contacts {
@@ -154,45 +33,11 @@
     .contacts {
         width: 60%;
     }
-    
-    .header-container {
-        margin: 0 2rem 0 2rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .background-container {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
-        grid-template-areas: 
-            "me"
-            "img";
-    }
-
-    .background-container .image {
-        justify-self: center;
-    }
-
-    .section-about-me p {
-        width: 60%;
-    }
 }
 
 @media (max-width: 425px) {
-    .header-container {
-        text-align: center;
-    }
-
-    .logo-container {
-        width: 100%;
-    }
-
-    .navbar {
-        display: none;
-    }
-
-    .section-about-me p {
-        width: 80%;
+    main {
+        width: 90%;
     }
 
     .contacts {
@@ -201,15 +46,7 @@
 }
 
 @media (max-width: 320px) {
-    .presentation p {
-        font-size: 3.5rem;
-    }
-
     .image-contact {
         width: 3.8rem;
-    }
-
-    .background-container .image {
-        width: 15rem;
     }
 }

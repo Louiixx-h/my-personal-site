@@ -1,6 +1,7 @@
 #projects {
     width: 60%;
     margin: 3rem auto;
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -26,4 +27,19 @@
     margin-top: 0.5rem;
     font-size: 3rem;
     color: #fff;
+}
+
+@media (max-width: 1024px) {
+    #projects {
+        width: 100%;
+    }
+
+    .project-item {
+        margin: 0.5rem 0;
+        padding: 1rem;
+    
+        border-radius: 0.2rem;
+        background-color: #313131;
+        text-align: center;
+    }
 }
