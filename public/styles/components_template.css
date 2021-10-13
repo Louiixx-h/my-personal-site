@@ -24,6 +24,14 @@ button {
     transition: all 0.3s;
 }
 
+input, textarea {
+    outline: none;
+    border: none;
+    padding: 0.8rem 0;
+    border-radius: 0.1rem;
+    font-weight: 600;
+}
+
 button:hover {
     cursor: pointer;
     filter: brightness(0.7);
