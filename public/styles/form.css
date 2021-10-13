@@ -1,0 +1,44 @@
+#form {
+    width: 50%;
+    margin: 0 auto 3rem auto;
+}
+
+.form-container { 
+    width: 100%;  
+    display: inline-block;
+}
+
+.form-container > * {
+    width: 100%;
+    margin: 0.8rem;
+}
+
+#content {
+    height: 25rem;
+    resize: none;
+}
+
+#submit {
+    padding: 1rem;
+    background-color: #ff4700;
+    color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    #form {
+        width: 80%;
+    }
+}
+
+@media (max-width: 425px) {
+    #form {
+        width: 90%;
+    }
+}
+
+@media (max-width: 320px) {
+    #form {
+        width: 95%;
+    }
+}
