@@ -51,15 +51,14 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 580px) {
+    .navbar {
+        display: none;
+    }
     .header-container {
         text-align: center;
     }
     .logo-container {
         width: 100%;
-    }
-
-    .navbar {
-        display: none;
     }
 }
