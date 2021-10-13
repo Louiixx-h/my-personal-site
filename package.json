@@ -5,7 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "consign": "^0.1.6",
-    "express": "^4.17.1"
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.7.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.13"
