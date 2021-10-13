@@ -1,0 +1,111 @@
+
+.presentation-container {
+    width: 100%;
+}
+
+.background-container {
+    width: 70%;
+    height: 50rem;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "me img";
+}
+
+.background-container .image {
+    grid-area: me;
+    align-self: center;
+    justify-self: end;
+    
+    width: 20rem;
+}
+
+.presentation {
+    grid-area: img;  
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.presentation p {
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.presentation p strong {
+    color: #828282;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+}
+
+.buttons {
+    margin-top: 1rem;
+}
+
+#download-cv {
+    margin-right: 0.5rem;
+    background-color: #ff4700;
+    color: #fff;
+}
+
+.section-about-me p {
+    width: 70%;
+    margin: auto;
+
+    color: #828282;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+}
+
+@media (max-width: 768px) {
+    .background-container {
+        width: 100%;
+    }
+
+    .section-about-me p {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .background-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+            "me"
+            "img";
+    }
+
+    .background-container .image {
+        justify-self: center;
+    }
+
+    .section-about-me {
+        width: 100%;
+    }
+
+    .section-about-me p {
+        width: 95%;
+        line-height: 2.4rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .presentation p {
+        font-size: 3.5rem;
+    }
+
+    .background-container .image {
+        width: 15rem;
+    }
+}

@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="/styles/reset.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/styles/projects.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/styles/form.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/styles/header.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/styles/about_me.css" media="screen" />
     <link rel="icon" type="imagem/png" href="/images/computer.png" />
 
     <!-- SEO -->
@@ -69,119 +71,120 @@
             </nav>
         </div>
     </header>
-    <article class="presentation-container">
-        <section class="background-container">
-            <img class="image" src="../images/me.png">
-            <div class="presentation">
-                <p>
-                    Olá eu sou o Luis!<br>
-                    <strong>Desenvolvedor Frontend Android nativo & Websites.</strong>
-                </p>
-                <div class="buttons">
-                    <a href="./files/curriculo.pdf" download="curriculo.pdf">
-                        <Button id="download-cv">Download CV</Button>
-                    </a>
-                    <a class="item" href="./files/Luis_Henrique.pdf" download="Luis_Henrique.pdf">
-                        <Button id="enter-to-contact">Cartão de visitas</Button>
-                    </a>
+    <main>
+        <article class="presentation-container">
+            <section class="background-container">
+                <img class="image" src="../images/me.png">
+                <div class="presentation">
+                    <p>
+                        Olá eu sou o Luis!<br>
+                        <strong>Desenvolvedor Frontend Android nativo & Websites.</strong>
+                    </p>
+                    <div class="buttons">
+                        <a href="./files/curriculo.pdf" download="curriculo.pdf">
+                            <Button id="download-cv">Download CV</Button>
+                        </a>
+                        <a class="item" href="./files/Luis_Henrique.pdf" download="Luis_Henrique.pdf">
+                            <Button id="enter-to-contact">Cartão de visitas</Button>
+                        </a>
+                    </div>
                 </div>
+            </section>
+        </article>
+        <div class="divider">
+            <h2>Sobre mim</h2>
+        </div>
+        <article id="about-me">
+            <section class="section-about-me">
+                <p>
+                    Sou desenvolvedor de software, tenho cerca de 3 anos de experiência com programação.
+                    Trabalho com Kotlin e Java para desenvolvimento com o Android Studio e também trabalho com HTML, CSS e
+                    Javascript para o desenvolvimento de Websites. Tenho experiências profissionais com arquiteturas MVVM e
+                    MVP além de boas práticas como SOLID e Clean Code. Procuro me recolocar no mercado de trabalho de forma
+                    remota.
+                </p>
+            </section>
+
+            <ul class="contacts">
+                <li>
+                    <a class="item"
+                        href="https://api.whatsapp.com/send?phone=5561991864880&text=Ol%C3%A1!%20Tudo%20bom%3F%20Quero%20saber%20mais%20sobre%20seu%20trabalho."
+                        target="_blank">
+                        <img class="image-contact" src="../images/whatsapp.png" alt="eu">
+                        <p>Whatsapp</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="item" href="mailto:louix.sm@gmail.com?subject=Hello" target="_blank">
+                        <img class="image-contact email" src="../images/email.png" alt="eu">
+                        <p>Email</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="item" href="https://www.instagram.com/louis.henrik/" target="_blank">
+                        <img class="image-contact" src="../images/instagram.png" alt="eu">
+                        <p>Instagram</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="item" href="https://www.linkedin.com/in/luishenr-m/" target="_blank">
+                        <img class="image-contact" src="../images/linkedin.png" alt="eu">
+                        <p>Linkedin</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="item" href="https://github.com/Louiixx-h" target="_blank">
+                        <img class="image-contact" src="../images/github.png" alt="eu">
+                        <p>Github</p>
+                    </a>
+                </li>
+            </ul>
+        </article>
+        
+        <div class="divider">
+            <h2>Meus projetos</h2>
+        </div>
+        
+        <article id="projects">
+
+            <div class="project-item">
+                <img src="./images/movie-brasil.png" alt="" srcset="">
+                <h2 class="title">Movie Brasil</h2>
             </div>
-        </section>
-    </article>
-    <div class="divider">
-        <h2>Sobre mim</h2>
-    </div>
-    <article id="about-me">
-        <section class="section-about-me">
-            <p>
-                Sou desenvolvedor de software, tenho cerca de 3 anos de experiência com programação.
-                Trabalho com Kotlin e Java para desenvolvimento com o Android Studio e também trabalho com HTML, CSS e
-                Javascript para o desenvolvimento de Websites. Tenho experiências profissionais com arquiteturas MVVM e
-                MVP além de boas práticas como SOLID e Clean Code. Procuro me recolocar no mercado de trabalho de forma
-                remota.
-            </p>
-        </section>
+            <div class="project-item">
+                <img src="./images/proffy.gif" alt="" srcset="">
+                <h2 class="title">Plataforma proffy</h2>
+            </div>
+            <div class="project-item">
+                <img src="./images/amazon.gif" alt="" srcset="">
+                <h2 class="title">Amazon prime</h2>
+            </div>
+            <div class="project-item">
+                <img src="./images/clone-instagram.png" alt="" srcset="">
+                <h2 class="title">Login do instagram</h2>
+            </div>
+            <div class="project-item">
+                <img src="./images/login.png" alt="" srcset="">
+                <h2 class="title">App de login</h2>
+            </div>
+            <div class="project-item">
+                <img src="./images/varejo.png" alt="" srcset="">
+                <h2 class="title">Varejo</h2>
+            </div>
+        </article>
 
-        <ul class="contacts">
-            <li>
-                <a class="item"
-                    href="https://api.whatsapp.com/send?phone=5561991864880&text=Ol%C3%A1!%20Tudo%20bom%3F%20Quero%20saber%20mais%20sobre%20seu%20trabalho."
-                    target="_blank">
-                    <img class="image-contact" src="../images/whatsapp.png" alt="eu">
-                    <p>Whatsapp</p>
-                </a>
-            </li>
-            <li>
-                <a class="item" href="mailto:louix.sm@gmail.com?subject=Hello" target="_blank">
-                    <img class="image-contact email" src="../images/email.png" alt="eu">
-                    <p>Email</p>
-                </a>
-            </li>
-            <li>
-                <a class="item" href="https://www.instagram.com/louis.henrik/" target="_blank">
-                    <img class="image-contact" src="../images/instagram.png" alt="eu">
-                    <p>Instagram</p>
-                </a>
-            </li>
-            <li>
-                <a class="item" href="https://www.linkedin.com/in/luishenr-m/" target="_blank">
-                    <img class="image-contact" src="../images/linkedin.png" alt="eu">
-                    <p>Linkedin</p>
-                </a>
-            </li>
-            <li>
-                <a class="item" href="https://github.com/Louiixx-h" target="_blank">
-                    <img class="image-contact" src="../images/github.png" alt="eu">
-                    <p>Github</p>
-                </a>
-            </li>
-        </ul>
-    </article>
-    
-    <div class="divider">
-        <h2>Meus projetos</h2>
-    </div>
-    
-    <article id="projects">
+        <div class="divider">
+            <h2>Contate-me</h2>
+        </div>
 
-        <div class="project-item">
-            <img src="./images/movie-brasil.png" alt="" srcset="">
-            <h2 class="title">Movie Brasil</h2>
-        </div>
-        <div class="project-item">
-            <img src="./images/proffy.gif" alt="" srcset="">
-            <h2 class="title">Plataforma proffy</h2>
-        </div>
-        <div class="project-item">
-            <img src="./images/amazon.gif" alt="" srcset="">
-            <h2 class="title">Amazon prime</h2>
-        </div>
-        <div class="project-item">
-            <img src="./images/clone-instagram.png" alt="" srcset="">
-            <h2 class="title">Login do instagram</h2>
-        </div>
-        <div class="project-item">
-            <img src="./images/login.png" alt="" srcset="">
-            <h2 class="title">App de login</h2>
-        </div>
-        <div class="project-item">
-            <img src="./images/varejo.png" alt="" srcset="">
-            <h2 class="title">Varejo</h2>
-        </div>
-    </article>
-
-    <div class="divider">
-        <h2>Contate-me</h2>
-    </div>
-
-    <article id="form">
-        <form class="form-container" method="post">
-            <input name="email" type="email" placeholder="Seu email">
-            <input name="subject" type="text" placeholder="Assunto">
-            <textarea name="content" id="content" placeholder="Conteúdo"></textarea>
-            <button id="submit" type="submit">Enviar</button>
-        </form>
-    </article>
-
+        <article id="form">
+            <form class="form-container" method="post">
+                <input name="email" type="email" placeholder="Seu email">
+                <input name="subject" type="text" placeholder="Assunto">
+                <textarea name="content" id="content" placeholder="Conteúdo"></textarea>
+                <button id="submit" type="submit">Enviar</button>
+            </form>
+        </article>
+    </main>
 </body>
 </html>
