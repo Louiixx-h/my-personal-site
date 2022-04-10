@@ -1,0 +1,94 @@
+#about-me {
+    width: 100%;
+}
+
+.section-about-me p {
+    width: 70%;
+    margin: auto;
+
+    color: #828282;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+}
+
+.contacts {
+    width: 30%;
+    margin: 6rem auto 3rem auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contacts .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item p {
+    color: #ccc;
+}
+
+.image-contact {
+    width: 4.4rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 1024px) {
+    .contacts {
+        width: 60%;
+    }
+}
+
+@media (max-width: 935px) {
+    .background-container {
+        width: 100%;
+    }
+
+    .section-about-me p {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 591px) {
+    .background-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+            "me"
+            "img";
+    }
+
+    .background-container .image {
+        justify-self: center;
+    }
+
+    .section-about-me p {
+        width: 95%;
+        line-height: 2.4rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .contacts {
+        width: 90%;
+    }
+}
+
+@media (max-width: 320px) {
+    .presentation p {
+        font-size: 3.5rem;
+    }
+
+    .background-container .image {
+        width: 15rem;
+    }
+    .image-contact {
+        width: 3.8rem;
+    }
+}

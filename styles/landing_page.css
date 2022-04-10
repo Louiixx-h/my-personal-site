@@ -1,0 +1,17 @@
+main {
+    width: 60%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+@media (max-width: 935px) {
+    main {
+        width: 90%;
+    }
+}
+
+@media (max-width: 425px) {
+    main {
+        width: 90%;
+    }
+}
