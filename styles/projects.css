@@ -9,10 +9,11 @@
 }
 
 .project-item {
-    height: 45rem;
+    height: 35rem;
     margin: 1rem 0;
+    padding: 1rem 0.5rem 0 0.5rem;
 
-    border-radius: 0.8rem;
+    border-radius: 0.4rem;
     background-color: #313131;
     text-align: center;
 
@@ -23,6 +24,7 @@
 
 .project-item .right {
     padding: 1rem 0 1rem 1rem;
+    display: none;
 }
 
 .project-item .left {
@@ -36,7 +38,7 @@
 }
 
 .project-item .left .down #see-project {
-    margin-bottom: 3.6rem;
+    margin-bottom: 2.6rem;
     width: 100%;
 }
 
