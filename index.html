@@ -9,6 +9,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="./styles/style-components/components_template.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./styles/style-components/colors.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="./styles/landing_page.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="./styles/style-components/reset.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="./styles/projects.css" media="screen" />
@@ -33,90 +34,130 @@
     <header class="header">
         <div class="header-container">
             <div class="logo-container">
-                <p class="logo">Portfólio</p>
+                <p class="logo">
+                    <strong style="color: #F0EB8D;"> < </strong>
+                    <strong style="color: #f2f2f2;">Luis Henrique</strong>
+                    <strong style="color: #F0EB8D;"> /> </strong>
+                </p>
             </div>
             <nav class="navbar">
-                <a href="#article-about-me">
-                    Sobre mim
+                <a href="#presentation-container">
+                    home
+                </a>
+                <a href="#about-me">
+                    About me
                 </a>
                 <a href="#projects">
-                    Projetos
-                </a>
-                <a href="">
-                    Créditos
+                    Projects
                 </a>
             </nav>
         </div>
     </header>
+
+    <!-- ----------------------------------------------------------------------------------------------  -->
+
     <main>
         <article id="presentation-container">
-            <section class="background-container">
-                <img class="image" src="../images/me.png">
-                <div class="presentation">
-                    <p>
-                        Olá eu sou o Luis!<br>
-                        <strong>Desenvolvedor Frontend Android nativo & Websites.</strong>
-                    </p>
-                    <div class="buttons">
-                        <a href="./files/curriculo.pdf" download="cv_luis.pdf">
-                            <Button id="download-cv" class="button-orange">Download CV</Button>
-                        </a>
-                        <a class="item" href="./files/Luis_Henrique.pdf" download="Luis_Henrique.pdf">
-                            <Button id="enter-to-contact">Cartão de visitas</Button>
-                        </a>
-                    </div>
+            <img class="image" src="../images/home.png">
+            <div class="presentation">
+                <p>
+                    Hello there, I'm Luis!<br>
+                    <strong>Software Engineer | Android Develop | Game Developer.</strong>
+                </p>
+                <div class="buttons">
+                    <a href="./files/curriculo.pdf" download="cv_luis.pdf">
+                        <Button id="download-cv" class="primary-button">Download CV</Button>
+                    </a>
+                    <a class="item" href="./files/Luis_Henrique.pdf" download="Luis_Henrique.pdf">
+                        <Button id="enter-to-contact">Cartão de visitas</Button>
+                    </a>
                 </div>
-            </section>
+                <ul class="contacts">
+                    <li>
+                        <a class="item" href="mailto:louix.sm@gmail.com?subject=Hello" target="_blank">
+                            <img class="image-contact email" src="../images/icons/ic_email.svg" alt="E-Mail">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item" href="https://www.hackerrank.com/louix_sm?hr_r=1" target="_blank">
+                            <img class="image-contact" src="../images/icons/ic_hackerhank.svg" alt="HackerHank">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item" href="https://www.linkedin.com/in/luishenr-m/" target="_blank">
+                            <img class="image-contact" src="../images/icons/ic_linkedin.svg" alt="Linkedin">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item" href="https://github.com/Louiixx-h" target="_blank">
+                            <img class="image-contact" src="../images/icons/ic_github.svg" alt="Github">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </article>
+        
+        <!-- ----------------------------------------------------------------------------------------------  -->
+        
         <div class="divider">
-            <h2>Sobre mim</h2>
         </div>
+        
+        <!-- ----------------------------------------------------------------------------------------------  -->
+        
         <article id="about-me">
+            <img id="profile" src="./images/profile.jpg"/>
+            <h2>About me</h2>
             <section class="section-about-me">
                 <p>
-                    Olá pessoal, tudo bem? Meu nome é Luis Henrique tenho 21 anos, desenvolvedor de Android e Jogos Eletronicos,
-                    sou formado em técnico de Automação Industrial. Minhas hard skills são voltadas para o desenvolvimento android nativo, 
-                    utilizo: kotlin, java e Android Studio.
+                    Hello everyone, how are you? My name is Luis Henrique, I'm 21 years old, and I'm an Android 
+                    and Game Developer. I have a degree in Industrial Automation Technician. My hard skills are 
+                    focused on native Android development. I use Kotlin, Java, and Android Studio.
                 </p>
             </section>
-
-            <ul class="contacts">
+            <ul class="tools">
                 <li>
-                    <a class="item" href="mailto:louix.sm@gmail.com?subject=Hello" target="_blank">
-                        <img class="image-contact email" src="../images/email.png" alt="eu">
-                        <p>Email</p>
-                    </a>
+                    <img class="image-tool email" src="../images/icons/ic_android_studio.svg" alt="E-Mail">
                 </li>
                 <li>
-                    <a class="item" href="https://www.instagram.com/louis.henrik/" target="_blank">
-                        <img class="image-contact" src="../images/instagram.png" alt="eu">
-                        <p>Instagram</p>
-                    </a>
+                    <img class="image-tool" src="../images/icons/ic_kotlin.svg" alt="HackerHank">
                 </li>
                 <li>
-                    <a class="item" href="https://www.linkedin.com/in/luishenr-m/" target="_blank">
-                        <img class="image-contact" src="../images/linkedin.png" alt="eu">
-                        <p>Linkedin</p>
-                    </a>
+                    <img class="image-tool" src="../images/icons/ic_unity.svg" alt="Linkedin">
                 </li>
                 <li>
-                    <a class="item" href="https://github.com/Louiixx-h" target="_blank">
-                        <img class="image-contact" src="../images/github.png" alt="eu">
-                        <p>Github</p>
-                    </a>
+                    <img class="image-tool" src="../images/icons/ic_c_sharp.svg" alt="Github">
                 </li>
-            </ul>
+                <li>
+                    <img class="image-tool" src="../images/icons/ic_html.svg" alt="Linkedin">
+                </li>
+                <li>
+                    <img class="image-tool" src="../images/icons/ic_css.svg" alt="Github">
+                </li>
+                <li>
+                    <img class="image-tool" src="../images/icons/ic_firebase.svg" alt="Github">
+                </li>
+                <li>
+                    <img class="image-tool" src="../images/icons/ic_git.svg" alt="Github">
+                </li>
+                <li>
+                    <img class="image-tool" src="../images/icons/ic_github.svg" alt="Github">
+                </li>
+            </ul>           
         </article>
+
+        <!-- ----------------------------------------------------------------------------------------------  -->
 
         <div class="divider">
             <h2>Meus projetos</h2>
         </div>
 
+        <!-- ----------------------------------------------------------------------------------------------  -->
+
         <article id="projects">
             <a href="https://github.com/Louiixx-h/Car-Shop" target="_blank">
                 <div class="project-item">
                     <div class="right">
-                        <img src="./images/carshop/home.png" alt="" srcset="">
+                        <img class="image-project" src="../images/projects/carshop/home.png" alt="Car Shop">
                     </div>
                     <div class="left">
                         <div class="up">
@@ -131,7 +172,7 @@
                             </p>
                         </div>
                         <div class="down">
-                            <button id="see-project" class="button-orange">Ver projeto</button>
+                            <button id="see-project" class="primary-button">Ver projeto</button>
                         </div>
                     </div>
                 </div>
@@ -139,7 +180,7 @@
             <a href="https://github.com/Louiixx-h/Cute-Cats-Gallery" target="_blank">
                 <div class="project-item">
                     <div class="right">
-                        <img src="./images/cats/home.png" alt="" srcset="">
+                        <img class="image-project" src="../images/projects/cats/home.png" alt="Cute Cats Gallery">
                     </div>
                     <div class="left">
                         <div class="up">
@@ -149,7 +190,7 @@
                             </p>
                         </div>
                         <div class="down">
-                            <button id="see-project" class="button-orange">Ver projeto</button>
+                            <button id="see-project" class="primary-button">Ver projeto</button>
                         </div>
                     </div>
                 </div>
@@ -157,35 +198,17 @@
             <a href="https://github.com/Louiixx-h/Movie-Brasil" target="_blank">
                 <div class="project-item">
                     <div class="right">
-                        <img src="./images/moviebrasil/home.png" alt="" srcset="">
+                        <img class="image-project" src="../images/projects/moviebrasil/home.png" alt="Movie Brasil">
                     </div>
                     <div class="left">
                         <div class="up">
-                            <h2 class="title">Movie Brasil (WIP)</h2>
+                            <h2 class="title">Movie Brasil</h2>
                             <p>
                                 O Movie Brasil é um aplicativo de listagem de filmes, o usuário pode ver os lançamentos do mês, os filmes mais populares e também salvar seu filme favorito.
                             </p>
                         </div>
                         <div class="down">
-                            <button id="see-project" class="button-orange">Ver projeto</button>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="https://github.com/Louiixx-h/login-mobile" target="_blank">
-                <div class="project-item">
-                    <div class="right">
-                        <img src="./images/login/start.png" alt="" srcset="">
-                    </div>
-                    <div class="left">
-                        <div class="up">
-                            <h2 class="title">Login Mobile</h2>
-                            <p>
-                                Este aplicativo é um protótipo de login onde o usuário pode se cadastrar com seu email e senha e também pode realizar o login com sua conta criada anteriormente. O app usa o firebase como backend que faz a autenticação.
-                            </p>
-                        </div>
-                        <div class="down">
-                            <button id="see-project" class="button-orange">Ver projeto</button>
+                            <button id="see-project" class="primary-button">Ver projeto</button>
                         </div>
                     </div>
                 </div>

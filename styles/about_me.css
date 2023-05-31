@@ -1,47 +1,56 @@
 #about-me {
     width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+#about-me #profile {
+    width: 15rem;
+    border-radius: 50%;
+}
+
+#about-me h2 {
+    font-size: 2.8rem;
+    margin-top: 5rem;
 }
 
 .section-about-me p {
     width: 70%;
-    margin: auto;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 
-    color: #828282;
     text-align: center;
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 3.2rem;
 }
 
-.contacts {
-    width: 30%;
-    margin: 6rem auto 3rem auto;
+.item p {
+    color: #ccc;
+}
+
+.image-tool {
+    width: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.tools {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.contacts .item {
+.tools .item {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.item p {
-    color: #ccc;
-}
-
-.image-contact {
-    width: 4.4rem;
-    margin-bottom: 1rem;
-}
-
-@media (max-width: 1024px) {
-    .contacts {
-        width: 60%;
-    }
 }
 
 @media (max-width: 935px) {
@@ -71,12 +80,6 @@
     .section-about-me p {
         width: 95%;
         line-height: 2.4rem;
-    }
-}
-
-@media (max-width: 425px) {
-    .contacts {
-        width: 90%;
     }
 }
 

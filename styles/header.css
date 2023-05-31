@@ -1,7 +1,12 @@
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 6rem;
-    background-color: #222;
+    height: 4rem;
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
 }
 
 .header-container {
@@ -17,8 +22,7 @@
 }
 
 .logo {
-    font-size: 3rem;
-    font-weight: 500;
+    font-size: 1.6rem;
 }
 
 .navbar {

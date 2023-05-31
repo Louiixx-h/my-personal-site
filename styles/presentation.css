@@ -1,9 +1,7 @@
 #presentation-container {
     width: 100%;
-}
 
-.background-container {
-    height: 50rem;
+    height: 100vh;
     margin: auto;
     
     display: grid;
@@ -11,12 +9,12 @@
     grid-template-areas: "me img";
 }
 
-.background-container .image {
+#presentation-container .image {
     grid-area: me;
     align-self: center;
     justify-self: end;
     
-    width: 20rem;
+    width: 30rem;
 }
 
 .presentation {
@@ -29,14 +27,14 @@
 }
 
 .presentation p {
-    color: #fff;
+    color: var(--text-color);
     text-align: center;
     font-size: 4rem;
     font-weight: 500;
 }
 
 .presentation p strong {
-    color: #828282;
+    color: var(--text-color);
     text-align: center;
     font-weight: 400;
     font-size: 1.8rem;
@@ -49,4 +47,37 @@
 
 #download-cv {
     margin-right: 0.5rem;
+}
+
+.image-contact {
+    width: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.contacts {
+    width: 50%;
+    margin-top: 2rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contacts .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1024px) {
+    .contacts {
+        width: 60%;
+    }
+}
+
+@media (max-width: 425px) {
+    .contacts {
+        width: 90%;
+    }
 }

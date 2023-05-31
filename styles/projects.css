@@ -14,7 +14,7 @@
     padding: 1rem 0.5rem 0 0.5rem;
 
     border-radius: 0.4rem;
-    background-color: #313131;
+    background-color: var(--second-color);
     text-align: center;
 
     display: flex;
@@ -22,9 +22,8 @@
     align-items: center;
 }
 
-.project-item .right {
-    padding: 1rem 0 1rem 1rem;
-    display: none;
+.project-item .right img {
+    width: 15rem;
 }
 
 .project-item .left {
@@ -60,13 +59,11 @@
 .project-item h2 {
     margin-top: 0.5rem;
     font-size: 3.2rem;
-    color: #ededed;
 }
 
 .project-item p {
     margin-top: 2.4rem;
     font-size: 1.6rem;
-    color: #828282;
     line-height: 2.4rem;
 }
 
@@ -81,5 +78,11 @@
     
         border-radius: 0.2rem;
         text-align: center;
+    }
+}
+
+@media (max-width: 540px) {
+    .project-item .right {
+        display: none;
     }
 }

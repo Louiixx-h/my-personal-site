@@ -1,10 +1,14 @@
 body {
-    background-color: #1f1f1f;
+    background-color: var(--primary-color);
     font-family: 'Roboto', sans-serif;
 }
 
-p, h1, h2, h3, h4, h5, h6, a {
-    color: #f2f2f2;
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+}
+
+p, a {
+    color: var(--text-color);
     font-size: 1.6rem;
 }
 
@@ -15,21 +19,29 @@ a {
 button {
     outline: none;
     border: none;
-    border-radius: 0.4rem;
+    border-radius: 0.2rem;
     padding: 0.8rem;
     font-weight: 500;
+    color: var(--text-color);
+    background-color: transparent;
+    border: 2px solid var(--third-color);
 
     transition: all 0.3s;
 }
 
-.button-orange {
+button:hover {
+    background-color: var(--third-color);
+  }
+
+.primary-button {
     outline: none;
     border: none;
-    border-radius: 0.4rem;
+    border-radius: 0.2rem;
     padding: 0.8rem;
     font-weight: 500;
-    background-color: #ff4700;
-    color: #f2f2f2;
+    background-color: var(--third-color);
+    border: 2px solid var(--third-color);
+    color: var(--text-color);
 
     transition: all 0.3s;
 }
@@ -44,12 +56,11 @@ input, textarea {
 
 button:hover {
     cursor: pointer;
-    filter: brightness(0.7);
 }
 
 .divider {
-    width: 100%;    
-    margin-top: 8rem;
+    width: 100%;
+    margin-top: 4rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: center;
