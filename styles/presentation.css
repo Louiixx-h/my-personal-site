@@ -1,18 +1,17 @@
 #presentation-container {
     width: 100%;
-
     height: 100vh;
     margin: auto;
     
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: "me img";
 }
 
 #presentation-container .image {
     grid-area: me;
+    margin: auto;
     align-self: center;
-    justify-self: end;
     
     width: 30rem;
 }
@@ -73,6 +72,17 @@
 @media (max-width: 1024px) {
     .contacts {
         width: 60%;
+    }
+}
+
+@media (max-width: 735px) {
+    #presentation-container {
+        margin-top: 2rem;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "me" 
+                             "img";
     }
 }
 

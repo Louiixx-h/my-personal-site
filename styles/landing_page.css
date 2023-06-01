@@ -4,7 +4,25 @@ main {
     margin: auto;
 }
 
-@media (max-width: 935px) {
+@media (max-width: 1367px) {
+    main {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1174px) {
+    main {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1024px) {
+    main {
+        width: 85%;
+    }
+}
+
+@media (max-width: 965px) {
     main {
         width: 90%;
     }
