@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title -->
     <title>Luis Henrique</title>
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="./styles/style-components/components_template.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="./styles/style-components/colors.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="./styles/landing_page.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="./styles/style-components/reset.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="./styles/projects.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="./styles/presentation.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./styles/style-components/landing_page.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="./styles/header.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./styles/presentation.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="./styles/about_me.css" media="screen" />
-    <link rel="icon" type="imagem/png" href="./images/icons/computer.png" />
+    <link rel="stylesheet" type="text/css" href="./styles/projects.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./styles/footer.css" media="screen" />
+    
+    <!-- Icon -->
+    <link rel="icon" type="imagem/png" href="./images/profile.jpg" />
 
     <!-- Font Family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,18 +31,18 @@
         body {
           font-family: 'Roboto', sans-serif;
         }
-      </style>
+    </style>
 </head>
 
 <body>
     <header class="header">
         <div class="header-container">
             <div class="logo-container">
-                <p class="logo">
-                    <strong style="color: #F0EB8D;"> < </strong>
-                    <strong style="color: #f2f2f2;">Luis Henrique</strong>
-                    <strong style="color: #F0EB8D;"> /> </strong>
-                </p>
+                <div class="logo">
+                    <p style="color: #F0EB8D;"> < </p>
+                    <h1 style="color: #f2f2f2;">Luis Henrique</h1>
+                    <p style="color: #F0EB8D;"> /> </p>
+                </div>
             </div>
             <nav class="navbar">
                 <a href="#presentation-container">
@@ -60,10 +64,10 @@
         <article id="presentation-container">
             <img class="image" src="../images/home.png">
             <div class="presentation">
-                <p>
-                    Hello there, I'm Luis!<br>
-                    <strong>Software Engineer | Android Developer | Game Developer.</strong>
-                </p>
+                <div id="greeting-text">
+                    <h2>Hello there, I'm Luis!</h2>
+                    <p>Software Engineer | Android Developer | Game Developer.</p>
+                </div>
                 <div class="buttons">
                     <a href="./files/curriculo.pdf" download="cv_luis.pdf">
                         <Button id="download-cv" class="primary-button">Download CV</Button>
@@ -96,11 +100,6 @@
                 </ul>
             </div>
         </article>
-        
-        <!-- ----------------------------------------------------------------------------------------------  -->
-        
-        <div class="divider">
-        </div>
         
         <!-- ----------------------------------------------------------------------------------------------  -->
         
@@ -147,12 +146,6 @@
 
         <!-- ----------------------------------------------------------------------------------------------  -->
 
-        <div class="divider">
-            <h2>Meus projetos</h2>
-        </div>
-
-        <!-- ----------------------------------------------------------------------------------------------  -->
-
         <article id="projects">
             <div class="project-item">
                 <div class="smartphone">
@@ -167,7 +160,7 @@
                     </div>
                     <div class="down">
                         <a href="https://github.com/Louiixx-h/Movie-Brasil" target="_blank">
-                            <button id="see-project" class="primary-button">Ver projeto</button>
+                            <button id="see-project">Ver projeto</button>
                         </a>
                     </div>
                 </div>
@@ -190,7 +183,7 @@
                         </div>
                         <div class="down">
                             <a href="https://github.com/Louiixx-h/Car-Shop" target="_blank">
-                                <button id="see-project" class="primary-button">Ver projeto</button>
+                                <button id="see-project">Ver projeto</button>
                             </a>
                         </div>
                     </div>
@@ -208,13 +201,19 @@
                         </div>
                         <div class="down">
                             <a href="https://github.com/Louiixx-h/Cute-Cats-Gallery" target="_blank">
-                                <button id="see-project" class="primary-button">Ver projeto</button>
+                                <button id="see-project">Ver projeto</button>
                             </a>
                         </div>
                     </div>
                 </div>
         </article>
     </main>
-</body>
 
+    <!-- ----------------------------------------------------------------------------------------------  -->
+
+    <a href="./projects.html" target="_blank">
+    <footer class="footer">
+    </footer>
+    </a>
+</body>
 </html>

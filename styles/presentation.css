@@ -1,7 +1,6 @@
 #presentation-container {
     width: 100%;
     height: 100vh;
-    margin: auto;
     
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -25,14 +24,14 @@
     flex-direction: column;
 }
 
-.presentation p {
+.presentation #greeting-text {
     color: var(--text-color);
     text-align: center;
     font-size: 4rem;
     font-weight: 500;
 }
 
-.presentation p strong {
+.presentation p {
     color: var(--text-color);
     text-align: center;
     font-weight: 400;
@@ -42,6 +41,10 @@
 
 .buttons {
     margin-top: 1rem;
+}
+
+#enter-to-contact {
+    color: var(--text-color);
 }
 
 #download-cv {

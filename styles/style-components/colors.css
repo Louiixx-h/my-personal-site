@@ -1,8 +1,11 @@
 :root {
-    --primary-color: #2D2727;
-    --second-color: #413543;
-    --third-color: #8F43EE;
-    --fourth-color: #F0EB8D;
+    --primary-color: #222;
+    --second-color: #334756;
+    --third-color: #E2703A;
+    --fourth-color: #CBE4DE;
+
+    --footer-color: #151515;
 
     --text-color: #f2f2f2;
+    --text-color-button: #f2f2f2;
 }

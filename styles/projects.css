@@ -1,5 +1,5 @@
-#projects { 
-    margin: 3rem auto;
+#projects {
+    height: auto;
 
     display: flex;
     flex-direction: row;
