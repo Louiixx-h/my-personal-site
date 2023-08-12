@@ -4,7 +4,7 @@
     
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "me img";
+    grid-template-areas: "img me";
 }
 
 #presentation-container .image {

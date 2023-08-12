@@ -1,11 +1,15 @@
 :root {
-    --primary-color: #222;
-    --second-color: #334756;
-    --third-color: #E2703A;
-    --fourth-color: #CBE4DE;
+    --primary-color: #073042;
+    --second-color: #1769e0;
+    --third-color: #3ddc84;
+    --fourth-color: #f4fffd;
 
-    --footer-color: #151515;
+    --header-color: var(--primary-color);
+    --background-color: var(--fourth-color);
+    --footer-color: var(--primary-color);
 
-    --text-color: #f2f2f2;
+    --button-color: var(--second-color);
+    --text-color-black-contrast: #f2f2f2;
+    --text-color-white-contrast: #151515;
     --text-color-button: #f2f2f2;
 }
