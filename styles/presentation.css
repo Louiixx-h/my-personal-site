@@ -25,14 +25,14 @@
 }
 
 .presentation #greeting-text {
-    color: var(--text-color);
+    color: var(--text-color-white-contrast);
     text-align: center;
     font-size: 4rem;
     font-weight: 500;
 }
 
 .presentation p {
-    color: var(--text-color);
+    color: var(--text-color-white-contrast);
     text-align: center;
     font-weight: 400;
     font-size: 1.8rem;
@@ -44,7 +44,7 @@
 }
 
 #enter-to-contact {
-    color: var(--text-color);
+    color: var(--text-color-white-contrast);
 }
 
 #download-cv {
