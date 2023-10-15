@@ -1,0 +1,47 @@
+[
+    {
+        "title" : "Movie Brasil",
+        "tag" : "android",
+        "image": "moviebrasil/movie-brasil-banner.png",
+        "button" : {
+            "text": "See Project",
+            "link": "https://github.com/Louiixx-h/Movie-Brasil"
+        }
+    },
+    {
+        "title" : "Cute Cats Gallery",
+        "tag" : "android",
+        "image": "cats/cats-gallery-banner.png",
+        "button" : {
+            "text": "See Project",
+            "link": "https://github.com/Louiixx-h/Cute-Cats-Gallery"
+        }
+    },
+    {
+        "title" : "Blood in the cards",
+        "tag" : "game",
+        "image": "bloodInTheCards/home.png",
+        "button" : {
+            "text": "See Project",
+            "link": "./pages/blood-in-the-cards/blood-in-the-cards.html"
+        }
+    },
+    {
+        "title" : "Car Shop",
+        "tag" : "android",
+        "image": "carshop/shop-car-banner.png",
+        "button" : {
+            "text": "See Project",
+            "link": "https://github.com/Louiixx-h/Car-Shop"
+        }
+    },
+    {
+        "title" : "Desire",
+        "tag" : "game",
+        "image": "desire/home.png",
+        "button" : {
+            "text": "See Project",
+            "link": "https://github.com/Louiixx-h/desire-game"
+        }
+    }
+]
