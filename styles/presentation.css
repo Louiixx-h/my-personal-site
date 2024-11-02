@@ -1,18 +1,38 @@
-#presentation-container {
+.map-wrapper {
     width: 100%;
     height: 100vh;
-    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 1);
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#presentation-container {
+    width: 100%;
+    height: 70vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "img me";
+    background-color: white;
+    border-radius: 3rem;
 }
 
 #presentation-container .image {
     grid-area: me;
     margin: auto;
     align-self: center;
-    
-    width: 30rem;
+    clip-path: circle(45%);
+    width: 35rem;
 }
 
 .presentation {

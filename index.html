@@ -60,22 +60,19 @@
 </header>
 
 <!-- ----------------------------------------------------------------------------------------------  -->
-
+<div class="map-wrapper">
+<img id="map" src="./images/map.png" alt="Map" />
+</div>
 <main>
     <article id="presentation-container">
-        <img class="image" src="./images/mobile-development-1.svg" alt="Smartphone">
+        <img class="image" src="./images/profile.jpg" alt="Smartphone">
         <div class="presentation">
             <div id="greeting-text">
                 <h2>Hello there, I'm Luis!</h2>
                 <p>Software Engineer | Android Developer | Game Developer.</p>
             </div>
             <div class="buttons">
-                <a href="./files/cv_luis.pdf" download="cv_luis.pdf">
-                    <Button id="download-cv" class="primary-button">Download CV</Button>
-                </a>
-                <a class="item" href="./files/Luis_Henrique.pdf" download="Luis_Henrique.pdf">
-                    <Button id="enter-to-contact">Business card</Button>
-                </a>
+                <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="luislabs" data-color="#5F7FFF" data-emoji="☕"  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
             </div>
             <ul class="contacts">
                 <li>
@@ -105,7 +102,7 @@
     <!-- ----------------------------------------------------------------------------------------------  -->
 
     <article id="about-me">
-        <img id="profile" src="./images/profile.jpg" alt="me"/>
+        <!--img id="profile" src="./images/profile.jpg" alt="me"/-->
         <h2>About me</h2>
         <section class="section-about-me">
             <p>
@@ -114,35 +111,7 @@
                 focused on native Android development. I use Kotlin, Java, and Android Studio.
             </p>
         </section>
-        <ul class="tools">
-            <li>
-                <img class="image-tool email" src="./images/icons/ic_android_studio.svg" alt="E-Mail">
-            </li>
-            <li>
-                <img class="image-tool" src="./images/icons/ic_kotlin.svg" alt="HackerHank">
-            </li>
-            <li>
-                <img class="image-tool" src="./images/icons/ic_unity.svg" alt="Linkedin">
-            </li>
-            <li>
-                <img class="image-tool" src="./images/icons/ic_c_sharp.svg" alt="Github">
-            </li>
-            <li>
-                <img class="image-tool" src="./images/icons/ic_html.svg" alt="Linkedin">
-            </li>
-            <li>
-                <img class="image-tool" src="./images/icons/ic_css.svg" alt="Github">
-            </li>
-            <li>
-                <img class="image-tool" src="./images/icons/ic_firebase.svg" alt="Github">
-            </li>
-            <li>
-                <img class="image-tool" src="./images/icons/ic_git.svg" alt="Github">
-            </li>
-            <li>
-                <img class="image-tool" src="./images/icons/ic_github.svg" alt="Github">
-            </li>
-        </ul>
+        <img id="my-knowledge" style="display: block; margin: auto;" src="https://skillicons.dev/icons?i=java,eclipse,kotlin,idea,unity,rider,visualstudio,androidstudio,bash,cs,dotnet,figma,firebase,git,github,githubactions,gradle,jenkins,javascript,vscode,npm,html,css,md,mysql,notion"/>
     </article>
 
     <!-- ----------------------------------------------------------------------------------------------  -->
@@ -170,6 +139,8 @@
     </ul>
     <p class="copyright">LuisLabs © 2020</p>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
 <script type="module" src="./src/loadingProject.js"></script>
+<script type="module" src="./src/map_generator.js"></script>
 </body>
 </html>
