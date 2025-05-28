@@ -60,3 +60,20 @@ input, textarea {
     border-radius: 0.1rem;
     font-weight: 500;
 }
+
+.component-stroke {
+    position: absolute;   /* sai do fluxo de grid */
+    inset: 0;             /* top:0; right:0; bottom:0; left:0; */
+    padding: .5rem;
+    box-sizing: border-box;
+    pointer-events: none; /* se não quiser que capture cliques */
+    z-index: 10;   
+}
+
+.component-stroke .stroke {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;          /* importante! */
+    border: 0.18rem solid rgba(255, 254, 231,0.5);
+    border-radius: 0.1rem;
+}

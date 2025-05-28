@@ -6,29 +6,36 @@
     left: 0;
     z-index: -1;
     overflow: hidden;
-    box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 1);
 }
 
-#map {
+.map-wrapper #map {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-#presentation-container {
+#presentation-section {
     width: 100%;
-    height: 70vh;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "img me";
-    background-color: white;
-    border-radius: 3rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#presentation-container .image {
-    grid-area: me;
+#presentation-article {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "about_me profile_image";
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+#presentation-article .image {
+    grid-area: profile_image;
     margin: auto;
     align-self: center;
     clip-path: circle(45%);
@@ -36,8 +43,7 @@
 }
 
 .presentation {
-    grid-area: img;  
-
+    grid-area: about_me;  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,39 +51,25 @@
 }
 
 .presentation #greeting-text {
-    color: var(--text-color-white-contrast);
     text-align: center;
     font-size: 4rem;
     font-weight: 500;
 }
 
+.presentation h2 {
+    color: rgb(255, 254, 231);
+}
+
 .presentation p {
-    color: var(--text-color-white-contrast);
+    color: #fffee7;
     text-align: center;
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 3.2rem;
 }
 
-.buttons {
-    margin-top: 1rem;
-}
-
-#enter-to-contact {
-    color: var(--text-color-white-contrast);
-}
-
-#download-cv {
-    margin-right: 0.5rem;
-}
-
-.image-contact {
-    width: 3.5rem;
-    margin-bottom: 1rem;
-}
-
 .contacts {
-    width: 50%;
+    width: 65%;
     margin-top: 2rem;
 
     display: flex;
@@ -92,6 +84,16 @@
     justify-content: center;
 }
 
+.contacts .item .image-contact {
+    width: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.contacts .item .image-contact {
+    width: 3.5rem;
+    margin-bottom: 1rem;
+}
+
 @media (max-width: 1024px) {
     .contacts {
         width: 60%;
@@ -99,7 +101,7 @@
 }
 
 @media (max-width: 735px) {
-    #presentation-container {
+    #presentation-article {
         margin-top: 2rem;
 
         grid-template-columns: 1fr;

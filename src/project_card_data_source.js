@@ -1,4 +1,4 @@
-import response from "./projects.json" assert { type: "json" }
+import response from "./data/projects.json" assert { type: "json" }
 
 console.log(response)
 

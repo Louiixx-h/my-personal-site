@@ -1,4 +1,5 @@
 .footer {
+    position: relative;
     margin-top: 10rem;
     width: 100%;
     padding: 3rem 0 3rem 0;
@@ -42,6 +43,11 @@
     margin:0 .8rem;
     color:inherit;
     opacity:0.75;
+}
+
+.image-contact {
+    width: 3.5rem;
+    margin-bottom: 1rem;
 }
 
 .footer .social > a:hover {

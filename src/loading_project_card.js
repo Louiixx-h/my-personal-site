@@ -1,4 +1,4 @@
-import {projects} from "./projectsDataSource.js"
+import {projects} from "./project_card_data_source.js"
 
 const IMAGE_PATH = "../images/projects/"
 
