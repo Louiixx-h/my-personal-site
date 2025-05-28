@@ -15,7 +15,7 @@
 }
 
 .section-about-me p {
-    width: 70%;
+    width: 90%;
     margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
@@ -25,6 +25,11 @@
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 3.2rem;
+}
+
+#my-knowledge {
+    width: 90%;
+    margin-top: 4rem; 
 }
 
 @media (max-width: 935px) {
