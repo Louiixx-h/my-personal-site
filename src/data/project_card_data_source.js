@@ -1,4 +1,4 @@
-[
+export const projects = [
     {
         "title" : "Movie Brasil",
         "tag" : "android",

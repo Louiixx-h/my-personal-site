@@ -9,7 +9,7 @@
     --footer-color: var(--primary-color);
 
     --button-color: var(--second-color);
-    --text-color-black-contrast: #f2f2f2;
+    --text-color-black-contrast: rgb(255, 254, 231);
     --text-color-white-contrast: #151515;
     --text-color-button: #f2f2f2;
 }
