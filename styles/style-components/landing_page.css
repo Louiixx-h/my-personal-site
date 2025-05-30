@@ -4,7 +4,6 @@ body {
 }
 
 main {
-    padding-top: 6rem;     /* mesmo valor de .header height */
     width: 60%;
     max-width: 1440px;
     margin: auto;

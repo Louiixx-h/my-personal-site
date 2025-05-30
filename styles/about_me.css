@@ -29,8 +29,19 @@
 }
 
 #my-knowledge {
-    width: 90%;
+    width: 80%;
+    margin: auto;
     margin-top: 4rem; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#my-knowledge img {
+    width: 4rem;
+    height: 4rem;
 }
 
 @media (max-width: 935px) {

@@ -1,22 +1,57 @@
-.map-wrapper {
+#map-wrapper-container {
     width: 100%;
     height: 100vh;
+    max-height: 10720px;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
     overflow: hidden;
+    background-color: var(--second-color);
 }
 
-.map-wrapper #map {
+#map-wrapper-container-2 {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    position: relative;;
+}
+
+#map-wrapper-container-2 #map-wrapper-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/icons/ic_quest_type_1.png');
+    background-size: 3.2rem 3.2rem;
+    background-repeat: space;
+    background-position: center;
+    filter: opacity(0.05);
+}
+
+#map-wrapper-container-2 #presentation-column-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#map-wrapper-container-2 .presentation-column {
+    width: 8rem;
+    height: 100hv;
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+
+#map-wrapper-container-2 .presentation-column img {
+    width: 8rem;
+    height: 8rem;
 }
 
 #presentation-section {
     width: 100%;
     height: 100vh;
+    max-height: 1024px;
     display: flex;
     align-items: center;
     justify-content: center;
