@@ -37,10 +37,23 @@
 }
 
 #map-wrapper-container-2 .presentation-column {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
     width: 8rem;
-    height: 100hv;
     margin-right: 6rem;
     margin-left: 6rem;
+}
+
+#map-wrapper-container-2 .presentation-column .images {
+  display: flex;
+  flex-direction: column;
+  animation: seamlessUp 16s linear infinite;
+}
+
+@keyframes seamlessUp {
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
 }
 
 #map-wrapper-container-2 .presentation-column img {
