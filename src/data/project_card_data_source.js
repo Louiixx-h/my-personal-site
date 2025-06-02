@@ -1,6 +1,7 @@
 export const projects = [
     {
         "title" : "Movie Brasil",
+        "description": "An Android application that allows you to search for movies and series, view details, and add them to your favorites list.",
         "tag" : "android",
         "image": "moviebrasil/movie-brasil-banner.png",
         "button" : {
@@ -10,6 +11,7 @@ export const projects = [
     },
     {
         "title" : "Cute Cats Gallery",
+        "description": "An Android application that allows you to view a gallery of cute cat images.",
         "tag" : "android",
         "image": "cats/cats-gallery-banner.png",
         "button" : {
@@ -19,6 +21,7 @@ export const projects = [
     },
     {
         "title" : "Blood in the cards",
+        "description": "A card game application built with Unity.",
         "tag" : "game",
         "image": "bloodInTheCards/home.png",
         "button" : {
@@ -28,6 +31,7 @@ export const projects = [
     },
     {
         "title" : "Car Shop",
+        "description": "An Android application that allows you to browse and purchase cars.",
         "tag" : "android",
         "image": "carshop/shop-car-banner.png",
         "button" : {
@@ -37,6 +41,7 @@ export const projects = [
     },
     {
         "title" : "Desire",
+        "description": "A game application built with Unity.",
         "tag" : "game",
         "image": "desire/home.png",
         "button" : {

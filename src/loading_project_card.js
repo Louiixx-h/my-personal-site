@@ -13,29 +13,34 @@ function createProjectElement(projectInfo) {
     const image = document.createElement("img")
     const descriptionContaienr = document.createElement("div")
     const labelContainer = document.createElement("div")
-    const labelProject = document.createElement("p")
+    const textContainer = document.createElement("div")
     const title = document.createElement("h2")
+    const description = document.createElement("p")
+    const labelProject = document.createElement("p")
     const linkContainer = document.createElement("a")
 
     projectDiv.setAttribute("class", "project-item")
-    image.setAttribute("src", IMAGE_PATH + projectInfo.image)
     descriptionContaienr.setAttribute("class", "project-description-container")
     labelContainer.setAttribute("class", "label-container")
     labelProject.setAttribute("class", `label-project`)
+    textContainer.setAttribute("class", "text-container")
     title.setAttribute("class", "title")
-    linkContainer.setAttribute("href", projectInfo.button.link)
+    description.setAttribute("class", "description")
     linkContainer.setAttribute("target", "_blank")
 
+    image.setAttribute("src", IMAGE_PATH + projectInfo.image)
+    linkContainer.setAttribute("href", projectInfo.button.link)
     labelProject.textContent = projectInfo.tag.toUpperCase()
     title.textContent = projectInfo.title
+    description.textContent = projectInfo.description
 
     labelContainer.appendChild(labelProject)
-
     projectDiv.appendChild(image)
     projectDiv.appendChild(descriptionContaienr)
-    descriptionContaienr.appendChild(title)
+    descriptionContaienr.appendChild(textContainer)
+    textContainer.appendChild(title)
+    textContainer.appendChild(description)
     descriptionContaienr.appendChild(labelContainer)
-    descriptionContaienr.appendChild(linkContainer)
 
     return projectDiv
 }

@@ -1,3 +1,13 @@
+html {
+  scrollbar-width: none;       /* sem thumb, sem track */
+  -ms-overflow-style: none;    /* IE 10+ */
+}
+
+/* WebKit (Chrome, Safari, Edge…) */
+html::-webkit-scrollbar {
+  display: none;
+}
+
 body {
     display: flex;
     flex-direction: column;
