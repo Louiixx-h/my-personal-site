@@ -29,7 +29,6 @@ function createProjectElement(projectInfo) {
     linkContainer.setAttribute("target", "_blank")
 
     image.setAttribute("src", IMAGE_PATH + projectInfo.image)
-    linkContainer.setAttribute("href", projectInfo.button.link)
     labelProject.textContent = projectInfo.tag.toUpperCase()
     title.textContent = projectInfo.title
     description.textContent = projectInfo.description

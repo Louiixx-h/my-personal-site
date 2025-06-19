@@ -39,6 +39,7 @@
 
 .project-item .project-description-container .title {
     margin-bottom: 3rem;
+    margin-top: 1rem;
     font-size: 3rem;
     font-weight: 500;
     color: rgb(255, 254, 231);
@@ -54,7 +55,7 @@
     text-align: start;
     width: min-content;
     padding: .5rem 1rem;
-    border: 0.18rem solid rgba(0, 0, 0, 0.5);
+    border: 0.18rem solid rgb(255, 254, 231);
     border-radius: .2rem;
     text-align: center;
 }
